@@ -2,7 +2,7 @@
   "name": "jenkins-node-app",
   "version": "1.0.0",
   "scripts": {
-    "start": "node app/index.js",
+    "start": "node index.js",
     "test": "echo \"No tests yet\" && exit 0"
   },
   "dependencies": {
