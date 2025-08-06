@@ -4,7 +4,7 @@ WORKDIR /app
 COPY APP/package*.json ./
 RUN npm install
 
-COPY APP/ ./
+COPY APP/..
 
 EXPOSE 3000
 CMD ["npm", "start"]
