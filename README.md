@@ -102,7 +102,7 @@ docker build -t 19c51a0534/task2-app .
 docker run -p 3000:3000 19c51a0534/task2-app
 ```
 
-✅ Visit: `http://localhost:3000` → Output: `Server running on port 3000`
+✅ Visit: `http://localhost:3000` → Output: `Hello from Jenkins Pipeline!`
 
 ---
 
@@ -112,12 +112,6 @@ Make sure you're logged in:
 
 ```bash
 docker login
-```
-
-If image was originally built with a wrong tag, fix it:
-
-```bash
-docker tag chandramah/task2-app 19c51a0534/task2-app
 ```
 
 Now push:
